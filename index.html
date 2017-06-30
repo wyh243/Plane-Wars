@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>模拟微信飞机大战</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+	<body>
+		<div id="content">
+			<div id="start">
+				<input type="button" value="开始游戏" onclick="begin()">
+			</div>
+			<div id="main">
+				<div id="score">
+					<label>分数：</label>
+					<label id="label">0</label>
+				</div>
+				<div id="end">
+					<p class="planeText">飞机大战分数</p>
+					<p id="planeScore">0</p>
+					<div><input type="button" value="继续" onclick="reload()"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+</html>
